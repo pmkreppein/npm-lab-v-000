@@ -5,9 +5,11 @@
   "main": "index.js",
   "directories": {
     "test": "test"
-  },"dependencies": {
-  "learn-browser": "^0.1.17"
-},
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.24.0"
+  },
   "scripts": {
     "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
   },
